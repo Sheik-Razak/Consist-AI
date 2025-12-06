@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from 'react';
 import type { Message, UserMessagePayload } from '@/lib/types';
-import { getRankedResponsesAction } from '@/app/actions'; // Updated import path
+import { getRankedResponsesAction } from '@/app/actions';
 import { ChatMessagesList } from './chat-messages-list';
 import { ChatInputArea } from './chat-input-area';
 import { useToast } from "@/hooks/use-toast";

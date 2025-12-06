@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-// import Image from 'next/image';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { MessageSquare, Brain, Zap } from 'lucide-react';
 
@@ -19,7 +19,13 @@ export default function HomePage() {
         </div>
 
         <div className="relative w-full max-w-xl mx-auto h-64 sm:h-80 md:h-96 rounded-xl shadow-2xl overflow-hidden border border-border">
-          <a href="https://ibb.co/rRjF0Bv4"><img src="https://i.ibb.co/NdvtC07Z/aaa.png" alt="aaa" border="0" /></a>
+          <Image
+            src="https://placehold.co/800x600.png" 
+            alt="AI Chatbot Logo"
+            layout="fill"
+            objectFit="cover"
+            data-ai-hint="chatbot logo"
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
         </div>
 
